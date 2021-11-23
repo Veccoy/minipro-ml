@@ -34,5 +34,12 @@ def cleaning(data_file):
                 df.at[i, colnames[j]] = means[j]
     return df
 
+def normalize(data_file):
+    """
+    :author: Victor Bercy
+    :param data_file: path to data to clean
+    :return:
+    """
+
 df = cleaning('kidney_disease.csv')
 print(df)
