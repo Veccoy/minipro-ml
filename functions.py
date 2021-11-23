@@ -41,5 +41,6 @@ def normalize(data_file):
     :return:
     """
 
+
 df = cleaning('kidney_disease.csv')
 print(df)
